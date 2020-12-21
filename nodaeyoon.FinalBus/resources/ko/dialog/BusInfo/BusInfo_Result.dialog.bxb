@@ -1,0 +1,4 @@
+dialog (Result) {
+  match: BusInfo (this)
+  template ("주변 정류장의 #{value(this.BusNumber)} 버스 정보입니다")
+}

@@ -1,0 +1,20 @@
+train (t-sbpsoq6sedg9y238w1nhez6dv) {
+  utterance ("[g:BusInfo] (강남 03)[v:BusNumber]번 어디야")
+  plan (Y2BmkMrLT0lMrczPz9NLy8xLzHEqLdYDYs+8tHwGGSxywamJRckZQBZWWSD2K81NSi1iYGJgBGIGIMnIAAJMEAwA)
+  last-modified (1569143165120)
+}
+train (t-sghkxdsbpdihg431woevq84mt) {
+  utterance ("[g:BusInfo] (동작04)[v:BusNumber]번 탈래")
+  plan (Y2BmkMrLT0lMrczPz9NLy8xLzHEqLdYDYs+8tHwGGSxywamJRckZQBZWWSD2K81NSi1iYGJgBGIGIMnIAAJMEAwA)
+  last-modified (1569132109616)
+}
+train (t-sox2fhkk0iqc3on11mld6yg80) {
+  utterance ("[g:BusInfo] (103)[v:BusNumber]번 버스 얼마나 걸려?")
+  plan (Y2BmkMrLT0lMrczPz9NLy8xLzHEqLdYDYs+8tHwGGSxywamJRckZQBZWWSD2K81NSi1iYGJgBGIGIMnIAAJMEAwA)
+  last-modified (1569141282428)
+}
+train (t-sz0u9non3mtlw46v3kgxpogn0) {
+  utterance ("[g:NearStationInfo] 내 (주변)[v:Near] (버스 정류장)[v:StationTag]")
+  plan (Y2BhUMrLT0lMrczPz9NLy8xLzHEqLdbzS00sCi5JLMnMz/PMS8tnUMGiJhioJjkDSSWDOA6TGGSxaYdoCklMZ2BmYGRgApIMQBoEIQDEB4sCAA==)
+  last-modified (1569141715464)
+}

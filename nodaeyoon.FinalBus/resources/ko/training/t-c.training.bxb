@@ -1,0 +1,10 @@
+train (t-c2uexcqergdkheg3ekottnesp) {
+  utterance ("[g:NearStationInfo] (정류장)[v:StationTag] (주변)[v:Near]에 있을까요")
+  plan (Y2BhUMrLT0lMrczPz9NLy8xLzHEqLdbzS00sCi5JLMnMz/PMS8tnUMGiJhioJjkDSSWDOA6TGGSxaYdoCklMZ2BmYGRgApIMQBoEIQDEB4sCAA==)
+  last-modified (1577978791837)
+}
+train (t-cfn4oq0sgx1uu7kx0lb16k2c9) {
+  utterance ("[g:BusInfo] (103)[v:BusNumber]번 어디니?")
+  plan (Y2BmkMrLT0lMrczPz9NLy8xLzHEqLdYDYs+8tHwGGSxywamJRckZQBZWWSD2K81NSi1iYGJgBGIGIMnIAAJMEAwA)
+  last-modified (1569077423689)
+}

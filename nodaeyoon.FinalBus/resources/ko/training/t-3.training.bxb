@@ -1,0 +1,10 @@
+train (t-3ez7q1yhiy045auityv0g35ta) {
+  utterance ("[g:BusInfo] (동작14)[v:BusNumber]번 버스 어디있니?")
+  plan (Y2BmkMrLT0lMrczPz9NLy8xLzHEqLdYDYs+8tHwGGSxywamJRckZQBZWWSD2K81NSi1iYGJgBGIGIMnIAAJMEAwA)
+  last-modified (1569472503933)
+}
+train (t-3vk34vvpwutwv05upugxiwzbo) {
+  utterance ("[g:BusInfo] (관악04)[v:BusNumber] 찾자")
+  plan (Y2BmkMrLT0lMrczPz9NLy8xLzHEqLdYDYs+8tHwGGSxywamJRckZQBZWWSD2K81NSi1iYGJgBGIGIMnIAAJMEAwA)
+  last-modified (1569141640135)
+}

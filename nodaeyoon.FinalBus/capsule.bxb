@@ -1,0 +1,47 @@
+capsule {
+	id (nodaeyoon.finalBus)
+	version (2.1.9)
+	format (3)
+	targets {
+		target (bixby-mobile-ko-KR)
+		target (bixby-mobile-en-US) {enabled (false)}
+	}
+
+  capsule-imports {
+    import (viv.core){ as (core)}
+    import (viv.geo) {
+      as (geo)
+      version (9.27.15)
+    }
+    import (viv.self) {
+      as (self)
+      version (4.0.20)
+    }
+  }
+
+	permissions {
+    device-location-access
+    library-permission (self:profile)
+  }
+	
+	runtime-version (8) {
+	}
+	
+	store-countries {
+		only {
+			allow (KR)
+		}
+	}
+	store-sections {
+		section (TravelAndTransportation)
+		section (Local) {
+			visibility-constraints {
+				country-constraints {
+					allowed-list {
+						allow (KR)
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,25 @@
+layout-macro-def (NearStationInfo-summary) {
+	params {
+		param (NearStationInfo) {
+			type (NearStationInfo)
+			min (Required) max (One)
+		}
+	}
+	content{
+		cell-card {
+			slot2 {
+				content {
+					order (PrimarySecondary)
+					primary ("#{value(NearStationInfo.StationName)}")
+					secondary ("방면 : #{value(NearStationInfo.NextStation)}")
+				}
+			}
+			slot3 {
+				label {
+					value ("#{value(NearStationInfo.Distance)}m")
+					//value ("#{value(this.City)}m")
+				}
+			}
+		}
+	}
+}
