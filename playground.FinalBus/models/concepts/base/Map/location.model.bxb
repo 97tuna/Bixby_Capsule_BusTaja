@@ -1,0 +1,7 @@
+structure (location) {
+  description (위도, 경도를 저장)
+  role-of (geo.GeoPoint)
+  features {
+    transient
+  }
+}

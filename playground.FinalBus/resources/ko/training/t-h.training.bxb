@@ -1,0 +1,25 @@
+train (t-hare00i7spv1tdutgtx5h09j6) {
+  utterance ("[g:NearStationInfo] (주변)[v:Near] (버스 정류장)[v:StationTag] 어디야?")
+  plan (Y2BhUMrLT0lMrczPz9NLy8xLzHEqLdbzS00sCi5JLMnMz/PMS8tnUMGiJhioJjkDSSWDOA6TGGSxaYdoCklMZ2BmYGRgApIMQBoEIQDEB4sCAA==)
+  last-modified (1569130612191)
+}
+train (t-hh1c5c97hovtg7uzzmi9pa835) {
+  utterance ("[g:BusInfo] (N15)[v:BusNumber]버스 찾아줘")
+  plan (Y2BmkMrLT0lMrczPz9NLy8xLzHEqLdYDYs+8tHwGGSxywamJRckZQBZWWSD2K81NSi1iYGJgBGIGIMnIAAJMEAwA)
+  last-modified (1569141489477)
+}
+train (t-hiq0oemgnrr1eohv9k3japkkw) {
+  utterance ("[g:BusInfo] (799파주)[v:BusNumber] 버스 찾아줘")
+  plan (Y2BmkMrLT0lMrczPz9NLy8xLzHEqLdYDYs+8tHwGGSxywamJRckZQBZWWSD2K81NSi1iYGJgBGIGIMnIAAJMEAwA)
+  last-modified (1569141381504)
+}
+train (t-hs5pw25lqx94q1q7kt14kwopm) {
+  utterance ("[g:NearStationInfo] (주변)[v:Near] (버스)[v:StationTag] 알려줘")
+  plan (Y2BhUMrLT0lMrczPz9NLy8xLzHEqLdbzS00sCi5JLMnMz/PMS8tnUMGiJhioJjkDSSWDOA6TGGSxaYdoCklMZ2BmYGRgApIMQBoEIQDEB4sCAA==)
+  last-modified (1569518637174)
+}
+train (t-hx1dyjjzy1pn1p5ydzp2sou9c) {
+  utterance ("[g:BusInfo] (금천01-1)[v:BusNumber] 어디까지 왔어?")
+  plan (Y2BmkMrLT0lMrczPz9NLy8xLzHEqLdYDYs+8tHwGGSxywamJRckZQBZWWSD2K81NSi1iYGJgBGIGIMnIAAJMEAwA)
+  last-modified (1569132014836)
+}

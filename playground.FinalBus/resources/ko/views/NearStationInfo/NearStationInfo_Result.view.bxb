@@ -1,0 +1,30 @@
+result-view {
+
+	match : NearStationInfo (result) {
+		min (Required)
+	}
+
+	message {
+		template ("주변에서 총 #{value(result[0].dataNumber)}개의 정류장을 찾았습니다")
+	}
+
+	render {
+		if (size(result) > 1) {
+			list-of (result) {
+				where-each (item) {
+					layout-macro (NearStationInfo-summary) {
+						param (NearStationInfo) {
+							expression(item)
+						}
+					}
+				}
+			}
+		} else-if (size(result) == 1) {
+			layout-macro (NearStationInfo-details) {
+				param (NearStationInfo) {
+					expression (result)
+				}
+			}
+		}
+	}
+}
