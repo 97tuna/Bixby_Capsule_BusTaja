@@ -1,0 +1,4 @@
+dialog (NoResult) {
+  match: BusInfo (this)
+  template ("주변에 해당 버스가 없습니다.")
+}

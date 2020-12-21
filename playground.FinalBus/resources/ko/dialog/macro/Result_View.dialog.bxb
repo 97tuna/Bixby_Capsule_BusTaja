@@ -1,0 +1,23 @@
+template-macro-def (BusList) {
+	params {
+		param (NearStationInfo) {
+			type (NearStationInfo)
+			min (Required) max (One)
+		}
+	}
+	content {
+		template ("#{value(NearStationInfo.StationName)}에서 #{value(NearStationInfo.NumberOfStation)}개의 버스를 찾았습니다")
+	}
+}
+
+template-macro-def (BusInfo) {
+	params {
+		param (BusInfo) {
+			type (BusInfo)
+			min (Required) max (One)
+		}
+	}
+	content {
+		template ("#{value(BusInfo.BusNumber)}버스가 다니는 #{value(BusInfo.dataNumber)}개 정류장을 찾았습니다")
+	}
+}

@@ -1,0 +1,129 @@
+layout-macro-def (NearStationInfo-details) {
+	params {
+		param (NearStationInfo) {
+			type (NearStationInfo)
+			min (Required) max (One)
+		}
+	}
+	content {
+		section{
+			content{
+				map-card {
+					zoom (17)
+					title-area {
+						slot1 {
+							text {
+								value ("")
+								style (Title_L)
+							}
+						}
+					}
+					markers {
+						marker {
+							geo (NearStationInfo.BusPos)
+							icon ("/images/map_marker/green-map-marker.png")
+							width (24) //3 4  24 32
+							height (32)
+							anchor-x (5)
+							anchor-y (15)
+							rotation (0)
+						}
+					}
+					on-click {
+						intent {
+							goal: OpenKakaoMap
+							value: $expr(NearStationInfo.MapURL)
+						}
+					}
+				}
+				for-each (NearStationInfo){
+					as (){
+						index-var(i)
+						paragraph{
+							value ("#{value(NearStationInfo[i].StationName)}")
+							style (Title_M)
+						}
+						paragraph{
+							value ("#{value(NearStationInfo[i].NextStation)}방면")
+							style (Detail_L_Soft)
+						}
+						divider
+						for-each (NearStationInfo.Station){
+							as (){
+								index-var (j)
+								hbox{
+									content{
+										vbox{
+											//grow(1)
+											content{
+												text{
+													value ("#{value(NearStationInfo[i].Station[j].BusNumber)}")
+													style (Title_S)
+												}
+											}
+										}
+										vbox{
+											halign (End)
+											grow(5)
+											content{
+												text{
+													value ("#{value(NearStationInfo[i].Station[j].FirstArriving)}")
+													style (Title_XS)
+												}
+											}
+										}
+										vbox{
+											//grow(3)
+											content{
+												if (NearStationInfo[i].Station[j].FirstArriving == '운행종료') {
+													single-line {
+														image {
+															url (/images/Congestion/BusEnd.png)
+															style (Detail_L)
+														}
+														//text ("여유") //ㅤ공백문자
+													}
+												}
+												else-if (NearStationInfo[i].Station[j].FirstCongestion == '여유'){
+													single-line {
+														image {
+															url (/images/Congestion/Green.png)
+															style (Detail_L)
+														}
+													}
+												}
+												else-if (NearStationInfo[i].Station[j].FirstCongestion == '보통') {
+													single-line {
+														image {
+															url (/images/Congestion/Yellow.png)
+															style (Detail_L)
+														}
+													}
+												}
+												else-if (NearStationInfo[i].Station[j].FirstCongestion == '혼잡') {
+													single-line {
+														image {
+															url (/images/Congestion/Red.png)
+															style (Detail_L)
+														}
+													}
+												}
+												else {
+													single-line {
+														image {
+															url (/images/Congestion/BusEnd.png)
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

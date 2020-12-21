@@ -1,0 +1,15 @@
+train (t-qbbtfq77p5fl8k1dkjrdm5jyi) {
+  utterance ("[g:BusInfo] (양천01)[v:BusNumber] 찾아줘")
+  plan (Y2BmkMrLT0lMrczPz9NLy8xLzHEqLdYDYs+8tHwGGSxywamJRckZQBZWWSD2K81NSi1iYGJgBGIGIMnIAAJMEAwA)
+  last-modified (1569131563459)
+}
+train (t-qqfar3y4ha8ngvsd2dp9kh4sc) {
+  utterance ("[g:BusInfo] (172)[v:BusNumber]번 찾아줘")
+  plan (Y2BmkMrLT0lMrczPz9NLy8xLzHEqLdYDYs+8tHwGGSxywamJRckZQBZWWSD2K81NSi1iYGJgBGIGIMnIAAJMEAwA)
+  last-modified (1569141060813)
+}
+train (t-qs3htl8uiv9kdxodagb6g2as7) {
+  utterance ("[g:BusInfo] (650)[v:BusNumber]번 버스 몇분 남았어?")
+  plan (Y2BmkMrLT0lMrczPz9NLy8xLzHEqLdYDYs+8tHwGGSxywamJRckZQBZWWSD2K81NSi1iYGJgBGIGIMnIAAJMEAwA)
+  last-modified (1569141121266)
+}

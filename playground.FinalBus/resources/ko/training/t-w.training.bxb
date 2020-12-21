@@ -1,0 +1,10 @@
+train (t-w40n73n2jeiyo6sx7gv6205vo) {
+  utterance ("[g:BusInfo] (강남07)[v:BusNumber]번 찾아줘")
+  plan (Y2BmkMrLT0lMrczPz9NLy8xLzHEqLdYDYs+8tHwGGSxywamJRckZQBZWWSD2K81NSi1iYGJgBGIGIMnIAAJMEAwA)
+  last-modified (1569141601958)
+}
+train (t-wzwtw708tkyptycp7d3svbz47) {
+  utterance ("[g:BusInfo] (강남06-1)[v:BusNumber]번 어디쯤이야")
+  plan (Y2BmkMrLT0lMrczPz9NLy8xLzHEqLdYDYs+8tHwGGSxywamJRckZQBZWWSD2K81NSi1iYGJgBGIGIMnIAAJMEAwA)
+  last-modified (1569141559099)
+}

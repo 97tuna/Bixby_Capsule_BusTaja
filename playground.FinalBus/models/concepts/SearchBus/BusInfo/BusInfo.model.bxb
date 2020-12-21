@@ -1,0 +1,56 @@
+// Last Update : 
+// Made By     : ika9810
+// Description : 
+//               
+
+structure (BusInfo) {
+  description (주변 특정 버스 조회 Output)
+  property (BusNumber) {
+    type (BusNumber)
+    min (Optional) max (One)
+  }
+  property (NextStation) {
+    type (NextStation)
+    min (Optional) max (One)
+  }
+  property (FirstArriving) {
+    type (FirstArriving)
+    min (Optional) max (One)
+  }
+  property (SecondArriving) {
+    type (SecondArriving)
+    min (Optional) max (One)
+  }
+  property (StationName) {
+    type (StationName)
+    min (Optional) max (One)
+  }
+  property (FirstBusID) {
+    type (FirstBusID)
+    min (Optional) max (One)
+  }
+  property (SecondBusID) {
+    type (SecondBusID)
+    min (Optional) max (One)
+  }
+  property (FirstCongestion) {
+    type (FirstCongestion)
+    min (Optional) max (One)
+  }
+  property (SecondCongestion) {
+    type (SecondCongestion)
+    min (Optional) max (One)
+  }
+  property (dataNumber) {
+    type (dataNumber)
+    min (Optional) max (One)
+  }
+  property (BusPos) {
+    type (geo.GeoPoint)
+    min (Optional) max (One)
+  }
+  property (MapURL) {
+    type (MapURL)
+    min (Optional) max (One)
+  }
+}
