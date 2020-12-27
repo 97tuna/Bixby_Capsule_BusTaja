@@ -13,11 +13,11 @@
 
 <!-- 이미지 -->
 <p align="center">
- <img src="https://img.shields.io/badge/build-passing-success">
- <img src="https://img.shields.io/badge/platform-Bixby-blue">
- <img src="https://img.shields.io/badge/version-2.1.9-important">
- <img src="https://img.shields.io/badge/language-javascript-yellow">
- <img src="https://img.shields.io/badge/license-MIT-green">
+ <a href="#"><img src="https://img.shields.io/badge/build-passing-success"></a>
+ <a href="https://bixbydevelopers.com/"><img src="https://img.shields.io/badge/platform-Bixby-blue"></a>
+ <a href="https://github.com/BixbyCrew/Bixby_Capsule_BusTaja/releases/tag/2.1.9"><img src="https://img.shields.io/badge/version-2.1.9-important"></a>
+ <a href="#"><img src="https://img.shields.io/badge/language-javascript-yellow"></a>
+ <a href="https://github.com/BixbyCrew/Bixby_Capsule_BusTaja/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green"></a>
 </p>
 
 <!-- Capsule Store사진 -->
@@ -109,7 +109,7 @@ capsule {
 }
 ```
 
-> [viv.core 버전 업데이트 명시](https://bixbydevelopers.com/dev/docs/dev-guide/developers/library)
+> [viv.core 버전 업데이트 명시](https://bixbydevelopers.com/dev/docs/dev-guide/developers/library#library-capsule-versions)
 
 <br>
 
@@ -156,9 +156,25 @@ capsule-info{
 * [https://bixbydevelopers.com](https://bixbydevelopers.com)
 
 ## Developer (Bixby Crew SSU)
-* [2_tuna_97](https://github.com/97tuna)
-* [tony9402](https://github.com/tony9402)
-* [ika9810](https://github.com/ika9810)
-* dldudwns
+
+<table>
+    <tr>
+        <td align="center" width="135px">
+            <a href="https://github.com/97tuna"><img height="100px" width="100px" src="https://avatars3.githubusercontent.com/u/50114556?s=400&v=4"></img></a><br />
+            <sub> <b> 97tuna </b> </sub>
+        </td>
+        <td align="center" width="135px">
+            <a href="https://github.com/tony9402"><img height="100px" width="100px" src="https://avatars1.githubusercontent.com/u/30228292?s=460&u=1ff865fa5aee04bc2c09fc2e08042b1f4367c469&v=4"></img></a><br />
+            <sub> <b> tony9402 </b> </sub>
+        </td>
+        <td align="center" width="135px">
+            <a href="https://github.com/ika9810"><img height="100px" width="100px" src="https://avatars0.githubusercontent.com/u/44824398?s=400&v=4"></img></a><br />
+            <sub> <b> ika9810 </b> </sub>
+        </td>
+        <td align="center" width="135px">
+            <sub> <b> dldudwns </b> </sub>
+        </td>
+    </tr>
+</table>
 
 <!-- 2020.12.27(SUN) [MOD] update README.md -->
