@@ -1,4 +1,4 @@
-# playground.finaldestination
+# playground.finalBus
 
 # 2019-11-02
 1. 레이아웃 수정 (여유,혼잡 이미지 축소 및 버스번호 크기 증가, 버스 정류장 크기 감소)
