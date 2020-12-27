@@ -1,0 +1,3 @@
+text (MapURL) {
+  description (지도 클릭시 띄울 URL)
+}

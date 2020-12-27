@@ -1,0 +1,5 @@
+train (t-pab0fhsgk0zcbjwudnvld6z98) {
+  utterance ("[g:NearStationInfo] (주변)[v:Near] (버스 정류장)[v:StationTag]")
+  plan (Y2BhUMrLT0lMrczPz9NLy8xLzHEqLdbzS00sCi5JLMnMz/PMS8tnUMGiJhioJjkDSSWDOA6TGGSxaYdoCklMZ2BmYGRgApIMQBoEIQDEB4sCAA==)
+  last-modified (1569518694232)
+}

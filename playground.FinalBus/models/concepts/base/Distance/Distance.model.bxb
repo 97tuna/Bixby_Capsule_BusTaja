@@ -1,0 +1,8 @@
+// Last Update : 
+// Made By     : ika9810
+// Description : 
+//               
+
+text (Distance) {
+  description (현위치로 부터의 거리)
+}

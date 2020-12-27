@@ -1,0 +1,24 @@
+layout-macro-def (BusInfo-summary) {
+	params {
+		param (BusInfo) {
+			type (BusInfo)
+			min (Required) max (One)
+		}
+	}
+	content{
+		cell-card {
+			slot2 {
+				content {
+					order (PrimarySecondary)
+					primary ("#{value(BusInfo.StationName)}")
+					secondary ("방면 : #{value(BusInfo.NextStation)}")
+				}
+			}
+			slot3{
+				label {
+					value ("#{value(BusInfo.FirstArriving)}")
+				}
+			}
+		}
+	}
+}

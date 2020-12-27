@@ -1,0 +1,5 @@
+train (t-zkipcb3ojg7b0x374i8eo12c1) {
+  utterance ("[g:BusInfo] (N62)[v:BusNumber]번 버스 어디")
+  plan (Y2BmkMrLT0lMrczPz9NLy8xLzHEqLdYDYs+8tHwGGSxywamJRckZQBZWWSD2K81NSi1iYGJgBGIGIMnIAAJMEAwA)
+  last-modified (1568987580467)
+}

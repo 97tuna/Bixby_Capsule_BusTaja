@@ -1,0 +1,10 @@
+train (t-k206etngv4pwsa7jerodsnihf) {
+  utterance ("[g:BusInfo] (9-1남양주)[v:BusNumber] 어디있어?")
+  plan (Y2BmkMrLT0lMrczPz9NLy8xLzHEqLdYDYs+8tHwGGSxywamJRckZQBZWWSD2K81NSi1iYGJgBGIGIMnIAAJMEAwA)
+  last-modified (1569141423217)
+}
+train (t-kxn22irooehdm4kwbmpehghi8) {
+  utterance ("[g:NearStationInfo] (주변)[v:Near] (버스)[v:StationTag] 어디있어?")
+  plan (Y2BhUMrLT0lMrczPz9NLy8xLzHEqLdbzS00sCi5JLMnMz/PMS8tnUMGiJhioJjkDSSWDOA6TGGSxaYdoCklMZ2BmYGRgApIMQBoEIQDEB4sCAA==)
+  last-modified (1569141061975)
+}
