@@ -1,0 +1,5 @@
+train (t-euzoz4rqx7mwfdg7xalajebrc) {
+  utterance ("[g:BusInfo] (강서01)[v:BusNumber] 타고싶어")
+  plan (Y2BmkMrLT0lMrczPz9NLy8xLzHEqLdYDYs+8tHwGGSxywamJRckZQBZWWSD2K81NSi1iYGJgBGIGIMnIAAJMEAwA)
+  last-modified (1569131896698)
+}

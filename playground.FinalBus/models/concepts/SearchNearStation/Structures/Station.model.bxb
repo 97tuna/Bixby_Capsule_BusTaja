@@ -1,0 +1,31 @@
+structure (Station) {
+	description (전에 stn역할을 해준 친구, 각 버스의 정보가 담겨있다.)
+	property (FirstArriving) {
+		type (FirstArriving)
+		min (Optional) max (One)
+	}
+	property (BusNumber) {
+		type (BusNumber)
+		min (Optional) max (One)
+	}
+	property (NextStation) {
+		type (NextStation)
+		min (Optional) max (One)
+	}
+	property (FullBus) {
+		type (FullBus)
+		min (Optional) max (One)
+	}
+  property (FirstBusID) {
+    type (FirstBusID)
+    min (Optional) max (One)
+  }
+  property (FirstCongestion) {
+    type (FirstCongestion)
+    min (Optional) max (One)
+  }
+  property (BusPos) {
+    type (BusPos)
+    min (Optional) max (One)
+  }
+}

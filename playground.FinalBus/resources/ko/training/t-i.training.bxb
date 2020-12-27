@@ -1,0 +1,10 @@
+train (t-i34d4sl3rfsw38as45clvub50) {
+  utterance ("[g:BusInfo] (753)[v:BusNumber]버스 얼마나 걸려?")
+  plan (Y2BmkMrLT0lMrczPz9NLy8xLzHEqLdYDYs+8tHwGGSxywamJRckZQBZWWSD2K81NSi1iYGJgBGIGIMnIAAJMEAwA)
+  last-modified (1569141259169)
+}
+train (t-itnwhvs7olo7law372hw5mdbl) {
+  utterance ("[g:BusInfo] (752)[v:BusNumber] 버스 어디")
+  plan (Y2BmkMrLT0lMrczPz9NLy8xLzHEqLdYDYs+8tHwGGSxywamJRckZQBZWWSD2K81NSi1iYGJgBGIGIMnIAAJMEAwA)
+  last-modified (1569234530424)
+}
