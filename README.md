@@ -26,7 +26,7 @@
 </p>
 
 ## Capsule Structure
----
+
 > Bixby Capsule은 다음과 같이 3가지로 구성되어 있습니다.
 1. javascript <br>
     여기서는 액션에서 받은 정보를 가지고 정보를 실행 또는 처리하는것인데요. API를 사용해서 정보를 받아오거나 이미 저장되어있는 데이터 값을 불러오는 등 다양한 역할을 하게 됩니다.
@@ -57,7 +57,7 @@
 <br>
 
 ## Capsule update시 갱신할 부분
----
+
 ### capsule.bxb
 ```javascript
 capsule {
@@ -141,7 +141,7 @@ capsule-info{
 
 
 ## Usage (대표 발화)
----
+
 * "751번 버스 어디있어?"
 * "동작 14번 타려면 어디서 타야해?"
 * "주변 버스 정류장 알려줘"
