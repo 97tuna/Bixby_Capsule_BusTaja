@@ -1,4 +1,0 @@
-dialog (NoResult) {
-  match: NearStationInfo
-  template ("아직은 지원하지 않는 지역입니다")
-}

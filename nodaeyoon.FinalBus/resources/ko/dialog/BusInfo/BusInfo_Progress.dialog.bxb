@@ -1,4 +1,0 @@
-dialog (Progress) {
-  match: BusInfo (this)
-  template ("버스정보를 검색중입니다")
-}

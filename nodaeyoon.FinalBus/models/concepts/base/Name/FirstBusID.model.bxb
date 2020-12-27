@@ -1,3 +1,0 @@
-text (FirstBusID) {
-  description (첫번째 예상 도착 버스의 ID)
-}

@@ -1,5 +1,0 @@
-train (t-940llapm7m85tk9bwob9xrm8p) {
-  utterance ("[g:BusInfo] (751)[v:BusNumber]번 버스 찾아줘")
-  plan (Y2BmkMrLT0lMrczPz9NLy8xLzHEqLdYDYs+8tHwGGSxywamJRckZQBZWWSD2K81NSi1iYGJgBGIGIMnIAAJMEAwA)
-  last-modified (1569078005561)
-}

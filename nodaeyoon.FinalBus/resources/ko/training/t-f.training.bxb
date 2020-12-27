@@ -1,5 +1,0 @@
-train (t-fksq7n32wncriyrrylx8bjxmx) {
-  utterance ("[g:NearStationInfo] (주변)[v:Near] (정류장)[v:StationTag] 찾아줘")
-  plan (Y2BhUMrLT0lMrczPz9NLy8xLzHEqLdbzS00sCi5JLMnMz/PMS8tnUMGiJhioJjkDSSWDOA6TGGSxaYdoCklMZ2BmYGRgApIMQBoEIQDEB4sCAA==)
-  last-modified (1569134015875)
-}

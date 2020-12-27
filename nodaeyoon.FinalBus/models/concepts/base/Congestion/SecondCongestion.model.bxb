@@ -1,8 +1,0 @@
-// Last Update : 
-// Made By     : ika9810
-// Description : 
-//               
-
-text (SecondCongestion) {
-  description (두번째 버스 혼잡도)
-}

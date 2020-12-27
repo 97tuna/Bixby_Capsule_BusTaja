@@ -1,8 +1,0 @@
-// Last Update : 
-// Made By     : ika9810
-// Description : 
-//               
-
-text (StationTag) {
-  description (정류장 이라는 말을 인식하기 위해)
-}

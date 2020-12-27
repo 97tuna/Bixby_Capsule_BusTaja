@@ -1,3 +1,0 @@
-text (NumberOfStation) {
-  description (각각의 버스 정류장에서 조회 되는 버스의 개수)
-}
